@@ -18,4 +18,3 @@ en fazla şehir sayısı barındıran country_id bilgisini ve şehir sayısını
 3-) SELECT store_id, COUNT(*) FROM customer GROUP BY store_id;
 
 4-) SELECT country_id, MAX(city_id) FROM city GROUP BY country_id ORDER BY MAX(city_id) DESC LIMIT 1;
-
