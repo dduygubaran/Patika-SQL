@@ -70,35 +70,35 @@ insert into employee (name, birthday, email) values ('Bengt', '1987/01/10', null
 
 3-) 
 
-//3.1
+--3.1
 UPDATE employee
 SET name='Ali',
     birthday='2000-10-07',
 	  email='aliacer@hotmail.com'
 WHERE id=2;
 
-//3.2
+--3.2
 UPDATE employee
 SET name='Merve',
     birthday='1977-04-07',
 	  email='mervekocak@gmail.com'
 WHERE id=9;
 
-//3.3
+--3.3
 UPDATE employee
 SET name='Murat',
 	  birthday='1993-05-04',
 	  email='muratgorkm@hotmail.com'
 WHERE id=44;
 
-//3.4
+--3.4
 UPDATE employee
 SET name='Defne',
    	birthday='1996-02-21',
   	email='defneakin@hotmail.com'
 WHERE id=27;
 
-//3.5
+--3.5
 UPDATE employee
 SET name='Harun',
   	birthday='1990-07-09',
@@ -107,23 +107,23 @@ WHERE id=34;
 
 4-)
 
-//4.1
+--4.1
 DELETE FROM employee
 WHERE id=12;
 
-//4.2
+--4.2
 DELETE FROM employee
 WHERE id=13;
 
-//4.3
+--4.3
 DELETE FROM employee
 WHERE id=14;
 
-//4.4
+--4.4
 DELETE FROM employee
 WHERE id=15;
 
-//4.5
+--4.5
 DELETE FROM employee
 WHERE id=16;
 
