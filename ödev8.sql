@@ -8,7 +8,8 @@ email VARCHAR(100) olan bir tablo oluşturalım.
 
 4-) Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 
-1-) CREATE TABLE employee (
+1-) 
+CREATE TABLE employee (
 id SERIAL PRIMARY KEY,
 name VARCHAR(50) NOT NULL,
 birthday DATE,
